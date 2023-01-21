@@ -1,0 +1,210 @@
+<html>
+<title>Afie</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://unpkg.com/feather-icons"></script>
+<link rel="stylesheet" href="w3.css">
+<body >
+<div>
+    <img src="BannerJurusan.png" width="100%">
+</div>
+<style>
+    body{
+    background-image: url('bgbg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    align-items:  center;
+}
+    .border{
+        border: 5px solid #555;
+    }
+
+</style>
+
+<!-- Navbar start -->
+
+
+<!-- Adalah sesi button dan juga dropdown button -->
+<div class="w3-bar w3-black" >
+ <button class="w3-bar-item w3-button w3-round-xxlarge" onclick="Profile('Home')"><img src="Home.png" width="50px" align="center"></button>   
+ <button class="w3-bar-item w3-button w3-xxlarge" onclick="Profile('Top')">Teknik Sipil</button>
+ <button class="w3-bar-item w3-button w3-xxlarge" onclick="Profile('Bottom')">Teknik Informatika</button>
+ <button class="w3-bar-item w3-button w3-xxlarge" onclick="Profile('Left')">Teknik Eleketro</button>
+ <button class="w3-bar-item w3-button w3-xxlarge" onclick="Profile('Right')">Teknik Mesin</button>
+ <button class="w3-bar-item w3-button w3-xxlarge" onclick="Profile('Ea')">Arsitektur</button>
+
+ 
+    <div class="w3-dropdown-hover">
+        <button class=" w3-bar-item w3-button w3-xxlarge" id="Fade"> Profile </button>
+            <div class="w3-dropdown-content w3-bar-block w3-black w3-card-4">
+                <button class="w3-bar-item w3-button w3-xxlarge " onclick="Profile('Profile')">Afie</button><br>
+                <button class="w3-bar-item w3-button w3-xxlarge" onclick="Profile('Feedback')">Feedback</button><br>
+            </div>
+    </div>
+</div>
+
+
+
+<div class="container">
+    <div align="center" id="Home" class=" w3-container kota w3-animate-zoom" style="display:block">
+        <h2 style="font-size:10vw; color: rgb(201, 210, 218);" > <span>Hi There!</span></h2>
+        <h1 style="font-size:7vw;"> Welcome To <span style="color: 0B8AEE">  Afie's <span style="color: black;">Website</span>  </h1>
+    </div>
+</div>
+
+
+    <div id="Top" class=" w3-container kota w3-animate-top " style="display:none"  >
+        <h2>
+            1. Teknik Sipil   
+        </h2>
+        <p>
+            <img src="sipil.png" style="border-radius: 50%;" class="border"  width="300px">
+            <div>
+            Apa itu teknik sipil? Teknik sipil adalah bidang ilmu yang mempelajari perencanaan/perancangan, manufaktur, manajemen/pengelolaan, <br>
+            dan konservasi dari beragam fasilitas dan sistem untuk mendukung sebuah kota, pedesaan, dan perkotaan.
+            </div>
+        </p>
+    </div>
+
+
+<div id="Bottom" class="w3-container kota w3-animate-bottom" style="display:none" >
+<h2>2. Teknik Informatika</h2>
+    <p>
+        <img src="Informatic.jpg"  style="border-radius: 50% ;" class="border" width="300px">
+        <div>
+            Teknik Informatika merupakan bidang ilmu yang mempelajari bagaimana menggunakan teknologi komputer secara optimal guna menangani masalah transformasi atau pengolahan data dengan proses logika.<br>
+            Di Jurusan Teknik Informatika kamu akan mempelajari berbagai prinsip terkait ilmu komputer mulai dari proses perancangan, pengembangan, pengujian, hingga evaluasi sistem operasi perangkat lunak.<br>
+            Selama kuliah kamu akan banyak mengkaji pemrograman dan komputasi, dan dibekali pula dengan keterampilan merancang perangkat lunak.
+        </div>
+   </p>
+</div>
+
+<div id="Left" class="w3-container kota w3-animate-left" style="display: none; " >
+<h2>3. Teknik Elektro</h2>
+    <p>
+        <img src="electro.jpg"  style="border-radius: 50% ;" class="border" width="300px" >
+        <div>
+            Teknik Elektro merupakan bidang ilmu yang mempelajari listrik dan aplikasinya dalam kehidupan sehari-hari. <br>
+            dengan ilmu dan pengetahuan seputar konsep, perancangan, pengembangan, serta produksi perangkat listrik dan elektronik. <br>
+            Kamu juga akan banyak membahas metode pembangkit dengan sumber energi baru, metode penyimpanan energi, dan metode kontrol penghematan energi.            
+        </div>
+    </p>
+</div>
+
+<div id="Right" class="w3-container kota w3-animate-right" style="display:none">
+<h2>4. Teknik Mesin</h2>
+    <p>
+        <img src="machine.jpg"  style="border-radius: 50% ;" class="border"  width="300px">
+        <div>
+            Jurusan Teknik Mesin tidak melulu soal mesin motor, mobil, dan kegiatan perbengkelan lainnya. <br>
+            Tapi kamu juga akan belajar hal-hal terkait konversi energi, konstruksi dan perancangan, teknik produksi, juga material. <br>
+             Memang benar sih, secara umum kamu akan mempelajari mesin dengan menggunakan dasar fisika dan matematika, seperti pergerakan mesin, aliran air untuk mesin, material dan desain mesin, <br>
+              elemen penting seperti roda gigi dan sumber mata air, metode pengolahan, metode produksi, pengendalian melalui komputer, dsb.
+        </div>
+   </p>
+</div>
+
+
+<div id="Ea" class="w3-container kota w3-animate-right" style="display: none;">
+    <h2>5. Arsitektur</h2>
+        <p>
+            <img src="architecture.jpg"  style="border-radius: 50% ;" class="border" width="300px" >
+            <div>
+                Arsitektur sendiri merupakan cabang ilmu teknik dan seni dalam merancang bangunan dan struktur. <br> 
+                Mempelajari arsitektur sama seperti belajar menciptakan sebuah ruang yang memiliki karakteristik tertentu seperti kegunaan, <br> 
+                kekokohan, dan keindahan.
+            </div>
+       </p>
+</div>
+
+
+
+
+<div id="Profile" class="w3-container kota w3-animate-right" style="display:none">
+    <img src="ProfileAfie.png" width="100%">
+</div>
+
+<style>
+
+
+
+    form{
+        background-image: url(bgbg.jpg);
+        border: 3px solid #555;
+        width: 600px;
+        padding: 20px;
+        margin: auto;
+        font-size: 20px;
+        border: 3px solid #555;
+    }
+    input[type=text]{
+        width: 500px;
+        padding: 5px;
+        font-size: 17px;
+
+    }
+    input[type*submit]{
+
+        font-size: 18px;
+        background-color: #04AA6D;
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
+
+
+    }
+    textarea{
+        background: #f2f2f2;
+        width: 500px;
+        font-size: 20px;
+        margin: auto;
+    }
+    
+</style>
+
+<div id="Feedback" class="w3-container kota w3-animate-right" style="display:none; padding: 20px;">
+    <form>
+    <b>Nama : <input type="text" name="masuk"><br>
+    <b>Email : <input type="text" name="masuk"><br>
+    <b>Feedback : <br>
+    <textarea name="massage " rows = "5" cols="10"></textarea>
+    <input type="submit" value="Send Massage">
+    </form>
+</div>
+
+
+<script>
+    function Profile(Afie) {
+     var i;
+     var x = document.getElementsByClassName("kota");
+     for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+     }
+     document.getElementById(Afie).style.display = "block";}
+</script>
+
+<script>
+    feather.replace()
+</script>
+</body>
+<style>
+    .footer {
+        position:fixed;
+        bottom:0;
+        left:0;
+        width:100%;
+        height: 50px;
+        background-color: #1d78ad;
+    }
+</style>
+
+<div class="footer" align="center" >
+    <p class="footer-text-left">
+        AFIE|NIM:10122071|Universitas : UNIKOM
+    </p>
+</div>
+
+
+</html>
